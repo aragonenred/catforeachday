@@ -38,8 +38,13 @@ img{
     max-width: 100%;
 }
 header{
-    padding: 3px;
+    padding: 10px;
     background-color: var(--bs-success);
+}
+header a{
+    text-decoration: none;
+    color:var(--bs-white);
+
 }
 h3{
    margin: 10px 0; 
