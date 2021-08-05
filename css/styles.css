@@ -37,12 +37,22 @@ main{
 img{
     max-width: 100%;
 }
+ul{
+    list-style: none;
+}
+p{
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+}
+
 header{
     padding: 10px;
     background-color: var(--bs-success);
 }
 header a{
-    text-decoration: none;
+
     color:var(--bs-white);
 
 }
@@ -61,4 +71,46 @@ footer{
 }   
 footer a{
     text-decoration: none;
+}
+
+/**Breeds.html*/
+#ul_breeds{
+    padding:0;
+}
+#ul_breeds li{
+    margin-bottom: 30px;
+   
+}
+
+#ul_breeds li p{
+    font-weight: 700;
+}
+.separador{
+    background-color: var(--bs-green);
+    height: 5px;
+    width: 5px;
+    display: inline-block;
+}
+
+/**Breed.html*/
+.breed-box{
+    text-align: left;
+}
+.breed-box h1{
+    margin-bottom: 10px;
+}
+.breed-box p{
+    font-weight: 600;
+}
+#breed_img{
+    margin: 10px 0;
+}
+#breed_description{
+    text-align: center;
+}
+#breed_wiki{
+
+}
+div#skillset {
+    width: 80%;
 }

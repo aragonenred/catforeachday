@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<?php include_once('includes/templates/header.php');?>
 </head>
 <body>
-    
-
-
-
-</body>
-</html>
+    <header>
+        <a  href="breeds.php" id="btn-more" ><i class="fas fa-search"></i> Explore more about cats </a>
+    </header>
+    <main>       
+        <h1>A cat for each day</h1>
+        <div class='imagen'>
+            <img id='img' src="" alt="">
+        </div>
+        <h3 id=title></h3>
+    </main>
+    <?php include_once('includes/templates/footer.php');?>
